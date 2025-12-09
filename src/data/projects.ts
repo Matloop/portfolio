@@ -92,6 +92,6 @@ export const projects: Project[] = [
     
     outcome: "Nossa equipe conquistou o 1º lugar no hackathon. O projeto validou minhas habilidades em arquitetura de sistemas de dados, processamento de ETL, modelagem de banco de dados (relacional e geoespacial) e prototipagem rápida de dashboards. A solução foi elogiada por sua robustez, clareza arquitetural e pela complexidade da lógica de negócio implementada em um curto espaço de tempo.",
     // liveLink: "http://localhost:8501", // Link para rodar localmente
-    repoLink: "https://github.com/seu-usuario/seu-repositorio-hackathon" // Link para o repositório do projeto
+    repoLink: "https://github.com/Max-Leal/Hackathon-Premiersoft-2025" // Link para o repositório do projeto
   },
 ];
