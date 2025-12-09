@@ -77,7 +77,6 @@ export default function ContactPage() {
             <div className="flex gap-4">
                 <SocialIcon href="https://github.com/SEU_USER" icon={<Github size={20} />} />
                 <SocialIcon href="https://linkedin.com/in/SEU_USER" icon={<Linkedin size={20} />} />
-                <SocialIcon href="https://instagram.com/SEU_USER" icon={<Instagram size={20} />} />
             </div>
           </div>
         </div>
