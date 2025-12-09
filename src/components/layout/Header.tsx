@@ -4,7 +4,7 @@ const navItems = [
   { name: "Home", href: "/" },
   { name: "Sobre", href: "/about" },     // Agora aponta para a página /about
   { name: "Projetos", href: "/projects" }, // Agora aponta para a página /projects
-  { name: "Contato", href: "mailto:matheusdiasestacioo@gmai,com" },
+  { name: "Contato", href: "/contact" }, 
 ];
 
 export default function Header() {
