@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Code2, Coffee, Gamepad2, Globe, Heart, Music } from "lucide-react";
+import { ArrowRight, Book, Code2, Coffee, Dumbbell, Gamepad2, Globe, Heart, Music } from "lucide-react";
 
 export const metadata = {
   title: "Sobre Mim | Portfolio",
@@ -28,7 +28,7 @@ export default function AboutPage() {
         <div className="relative w-full aspect-square md:aspect-[4/5] rounded-2xl overflow-hidden border border-white/10 bg-neutral-900 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
           {/* Substitua esta URL pela sua foto real em /public/assets/me.jpg */}
           <Image
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"
+            src="assets/suit-me.jpg"
             alt="Foto de Perfil"
             fill
             className="object-cover"
@@ -45,16 +45,14 @@ export default function AboutPage() {
           </h2>
           
           <p>
-            Minha jornada começou quando percebi que podia criar coisas a partir do nada, apenas escrevendo linhas de código. O que começou como curiosidade sobre como jogos eram feitos, transformou-se em uma carreira apaixonada por resolver problemas reais.
+            Comecei no mundo da programação há 2 anos, e a partir disso semprei busquei aprender mais.
           </p>
           
           <p>
-            Hoje, especializo-me em construir aplicações web modernas, focando não apenas em código limpo, mas na experiência de quem usa. Acredito que a tecnologia deve ser invisível e facilitar a vida das pessoas.
+            Hoje, especializo-me em construir aplicações web modernas, focando não apenas em código, mas na experiência de quem usa. Acredito que a tecnologia deve ser invisível e facilitar a vida das pessoas.
           </p>
 
-          <p>
-            Quando não estou programando, estou sempre buscando aprender algo novo, seja uma nova linguagem, um padrão de arquitetura ou como otimizar aquele pedaço de código que ninguém mais vê.
-          </p>
+         
 
           {/* Assinatura ou Botão */}
           <div className="pt-4">
@@ -76,14 +74,14 @@ export default function AboutPage() {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <HobbyCard 
-                icon={<Code2 size={24} />} 
-                title="Open Source" 
-                desc="Entusiasta de software livre e contribuidor ocasional." 
+                icon={<Dumbbell size={24} />} 
+                title="Academia" 
+                desc="Para deixar o corpo e a mente em dia" 
             />
             <HobbyCard 
-                icon={<Gamepad2 size={24} />} 
-                title="Gamer" 
-                desc="Fã de RPGs e estratégia. A resolução de problemas continua nos jogos." 
+                icon={<Book size={24} />} 
+                title="Livros" 
+                desc="Adoro ler livros de litelatura clássica e e programação." 
             />
             <HobbyCard 
                 icon={<Music size={24} />} 

@@ -65,11 +65,11 @@ export const projects: Project[] = [
     tech: ["Python", "Pandas", "PostgreSQL", "PostGIS", "Docker", "Docker Compose", "Streamlit", "SQLAlchemy"],
     
     // Imagem Principal (Hero) - Use uma imagem geral do dashboard
-    mainImage: "/assets/aps-health-dashboard-main.png", 
+    mainImage: "/assets/foto-3-hack.jpeg", 
     
     context: "O desafio do hackathon era criar um pipeline de dados resiliente e escalável para a Agência Premiersoft de Saúde. O maior desafio técnico foi construir um motor de ingestão flexível, capaz de traduzir formatos complexos como HL7, e desenvolver algoritmos de alocação inteligente de recursos (médicos e pacientes) baseados em regras de negócio como especialidade e proximidade geográfica (raio de 30km).",
     // Imagem do Contexto - Pode ser um diagrama da arquitetura
-    contextImage: "/assets/aps-health-architecture.png",
+    contextImage: "/assets/premierchallenge.png",
     
     features: [
       "Pipeline de ETL completo com etapas de Extração, Transformação e Carga.",
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     // Vídeo demonstrativo - Grave um vídeo curto da navegação no dashboard
     videoUrl: "/assets/aps-health-demo.mp4",
     // Imagem das Features - Pode ser uma imagem focada no mapa ou nos gráficos
-    featureImage: "/assets/aps-health-features.png",
+    featureImage: "/assets/dashboardpremier.png",
     
     galleryImages: [
       "/assets/foto-3-hack.jpeg",  // Tela principal

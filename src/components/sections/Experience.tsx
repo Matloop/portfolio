@@ -33,7 +33,7 @@ export default function Experience() {
             `}
           >
             <Briefcase size={16} />
-            Work
+            Experiências
           </button>
 
           <button
@@ -46,7 +46,7 @@ export default function Experience() {
             `}
           >
             <GraduationCap size={16} />
-            Studies
+            Estudos
           </button>
 
         </div>

@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-neutral-800 hover:border-white transition-colors duration-500">
           {/* Substitua '/me.jpg' pela sua foto na pasta public */}
           <Image 
-            src="/me.jpg" 
+            src="/assets/suit-me-red.jpg" 
             alt="Foto de Perfil" 
             fill 
             className="object-cover"
