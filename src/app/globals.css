@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* 
+  Carrega o plugin de animações diretamente no CSS na v4.
+  Nota: Se o VS Code reclamar, é apenas porque a extensão
+  pode precisar de reload, mas o build funcionará.
+*/
+@plugin "tailwindcss-animated";
+
+@theme {
+  /* Definindo variáveis de cor que o Tailwind vai usar */
+  --color-background: #0d0d0d;
+  --color-foreground: #ededed;
+  
+  /* Se precisar estender fontes ou tamanhos, fazemos aqui dentro */
+}
+
+/* Utilitários CSS padrão */
+:root {
+  --background: #0d0d0d;
+  --foreground: #ededed;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden; /* Essencial para animações laterais */
+}
+
+/* Efeito de Blur (Background Lights) */
+.blur-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: -1;
+    opacity: 0.4;
+    pointer-events: none;
+}
