@@ -108,7 +108,7 @@ export default function AboutPage() {
             Estou sempre aberto a novas oportunidades e parcerias. Se você tem um projeto em mente ou apenas quer trocar uma ideia, entre em contato.
         </p>
         <Link 
-            href="mailto:seuemail@gmail.com"
+            href="mailto:matheusdiasestacioo@gmail.com"
             className="inline-block px-8 py-3 rounded-full bg-white text-black font-bold hover:bg-neutral-200 hover:scale-105 transition-all"
         >
             Entrar em Contato
